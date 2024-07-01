@@ -107,7 +107,6 @@ struct ContentView: View {
                                 .padding(.vertical, 3)
                             }
                         }
-                        .scrollTargetLayout()
                         .containerRelativeFrame(.horizontal)
                         .id(Page.Latest)
                         
@@ -127,7 +126,6 @@ struct ContentView: View {
                                 .padding(.vertical, 3)
                             }
                         }
-                        .scrollTargetLayout()
                         .containerRelativeFrame(.horizontal)
                         .id(Page.Trending)
                         
